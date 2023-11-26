@@ -15,7 +15,8 @@ export const TableHeading = styled.th`
   font-weight: 500;
   text-transform: uppercase;
 `;
-export const TableRaw = styled.td`
-  width: 250px;
-  padding: 7px 0;
+export const TableRaw = styled.tr`
+  &:nth-child(even) {
+    background-color: #80808075;
+  }
 `;
